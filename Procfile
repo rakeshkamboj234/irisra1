@@ -1,1 +1,2 @@
-web: gunicorn FlaskApp:irisra1
+web: gunicorn FlaskApp:app
+web: gunicorn run:irisra1
